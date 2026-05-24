@@ -1,0 +1,32 @@
+# API Keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Auto-generated data (vector stores, memories, question banks, dungeons, saves)
+data/chroma/
+data/dungeons/
+data/saves/
+data/db/*.json
+data/db/memories/
+
+# Session state
+storage/state.json
+storage/messages.json
+
+# Project config (local)
+.claude/
+.opencode/
+docs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
